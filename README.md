@@ -1,4 +1,4 @@
-iir-filter-designer
-===================
+Java IIR filter designer
+========================
 
-A Java library for designing Infinite Impulse Response (IIR) filters.
+A Java library for designing Infinite Impulse Response (IIR) filters (under construction).
