@@ -20,7 +20,7 @@ import org.jdsp.iirfilterdesigner.model.FilterZerosPolesGain;
  *
  * @author Piotr Szachewicz
  */
-abstract class AbstractIIRDesigner {
+public abstract class AbstractIIRDesigner {
 
 	/**
 	 * Logger to log history of designing a filter to it.
@@ -419,7 +419,7 @@ abstract class AbstractIIRDesigner {
 	/**
 	 * This class is used for bandstop filter order minimization.
 	 */
-	protected class BandstopObjectiveFunction implements UnivariateRealFunction {
+	public class BandstopObjectiveFunction implements UnivariateRealFunction {
 
 		/**
 		 * specyfies which passband edge to vary

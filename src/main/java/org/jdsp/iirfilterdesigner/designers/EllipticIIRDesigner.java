@@ -23,7 +23,7 @@ public class EllipticIIRDesigner extends AbstractIIRDesigner {
 
 	private static final double EPSILON = 2e-16;
 
-	protected static class VRatio implements UnivariateRealFunction {
+	public static class VRatio implements UnivariateRealFunction {
 
 		private double ineps;
 		private double mp;
@@ -31,7 +31,7 @@ public class EllipticIIRDesigner extends AbstractIIRDesigner {
 		VRatio() {
 		}
 
-		VRatio(double ineps, double mp) {
+		public VRatio(double ineps, double mp) {
 
 			this.ineps = ineps;
 			this.mp = mp;
@@ -45,11 +45,11 @@ public class EllipticIIRDesigner extends AbstractIIRDesigner {
 
 	}
 
-	protected static class KRatio implements UnivariateRealFunction {
+	public static class KRatio implements UnivariateRealFunction {
 
 		private double kRatio;
 
-		KRatio() {
+		public KRatio() {
 		}
 
 		KRatio(double kRatio) {

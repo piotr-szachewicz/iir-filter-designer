@@ -107,7 +107,7 @@ public class InitialStateCalculator {
 	 * Calculates the ZID vector. (Compare the python code).
 	 * @return the ZID vector
 	 */
-	protected RealVector calculateZID() {
+	public RealVector calculateZID() {
 		double[] bSubArray = new double[numberOfCoefficients-1];
 		double[] aSubArray = new double[numberOfCoefficients-1];
 
@@ -125,7 +125,7 @@ public class InitialStateCalculator {
 	 * Calculates the ZIN matrix (compare the python code).
 	 * @return the ZIN matrix
 	 */
-	protected RealMatrix calculateZIN() {
+	public RealMatrix calculateZIN() {
 		RealMatrix identityMatrix = MatrixUtils.createRealIdentityMatrix(numberOfCoefficients-1);
 		RealMatrix subtrahend = calculateSubtrahendForZIN();
 

@@ -52,7 +52,7 @@ public class FilterZerosPolesGain {
 	 *
 	 * @return an array of zeros
 	 */
-	protected Complex[] getZeros() {
+	public Complex[] getZeros() {
 		return zeros;
 	}
 
@@ -61,7 +61,7 @@ public class FilterZerosPolesGain {
 	 *
 	 * @return an array of poles
 	 */
-	protected Complex[] getPoles() {
+	public Complex[] getPoles() {
 		return poles;
 	}
 
@@ -70,7 +70,7 @@ public class FilterZerosPolesGain {
 	 *
 	 * @return the value of gain
 	 */
-	protected double getGain() {
+	public double getGain() {
 		return gain;
 	}
 
