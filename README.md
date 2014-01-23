@@ -15,12 +15,13 @@ For example:
 	FilterCoefficients coefficients = IIRDesigner.designDigitalFilter(ApproximationFunctionType.BUTTERWORTH, FilterType.LOWPASS, new double[]{10.0}, new double[]{20.0}, 3.0, 40.0, 256.0);
 
 The designDigitalFilter uses the following parameters:
-1. ApproximationFunctionType approximationFunctionType,
-2. FilterType filterType,
-3. double[] passbandEdgeFrequencies, 
-4. double[] stopbandEdgeFrequencies
-5. double passbandRipple
-6. double stopbandAttenuation
-7. double samplingFrequency
+
+1.  ApproximationFunctionType approximationFunctionType - allowed types available in the ApproximationFunctionType enumerator (BUTTERWORTH, CHEBYSHEV1, CHEBYSHEV2, ELLIPTIC).
+2.  FilterType filterType - allowed values available in the FilterType enumerator (LOWPASS, HIGHPASS, BANDPASS, BANDSTOP).
+3.  double[] passbandEdgeFrequencies - contains an array of passband edge frequencies. In case of low-pass or high-pass filter the array should contain only one number, in case of band-pass or band-stop filters two numbers are required.
+4.  double[] stopbandEdgeFrequencies - contains an array of stopband edge frequencies.
+5.  double passbandRipple - describes what is the allowable ripple in the passband (in dB).
+6.  double stopbandAttenuation - describes how much attenuation is required in the stopband (dB).
+7.  double samplingFrequency - sampling frequency of the signal in Hz.
 
 
