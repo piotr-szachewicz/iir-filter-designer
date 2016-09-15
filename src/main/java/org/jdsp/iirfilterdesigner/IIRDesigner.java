@@ -43,7 +43,13 @@ public class IIRDesigner {
 	 * @throws BadFilterParametersException thrown when the filter cannot
 	 * design a filter for the given parameters.
 	 */
-	public static FilterCoefficients designDigitalFilter(ApproximationFunctionType approximationFunctionType, FilterType type, double[] passbandEdgeFrequencies, double[] stopbandEdgeFrequencies, double passbandRipple, double stopbandAttenuation, double samplingFrequency) throws BadFilterParametersException {
+	public static FilterCoefficients designDigitalFilter(ApproximationFunctionType approximationFunctionType,
+		FilterType type,
+		double[] passbandEdgeFrequencies,
+		double[] stopbandEdgeFrequencies,
+		double passbandRipple,
+		double stopbandAttenuation,
+		double samplingFrequency) throws BadFilterParametersException {
 
 		if (approximationFunctionType.isButterworth()) {
 

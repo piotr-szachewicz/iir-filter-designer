@@ -12,7 +12,19 @@ How to use it:
 Designing an IIR filter boils down to using the IIRDesigner's designDigitalFilter method.
 For example:
 
-	FilterCoefficients coefficients = IIRDesigner.designDigitalFilter(ApproximationFunctionType.BUTTERWORTH, FilterType.LOWPASS, new double[]{10.0}, new double[]{20.0}, 3.0, 40.0, 256.0);
+```
+	ApproximationFunctionType functionType = ApproximationFunctionType.BUTTERWORTH;
+	FilterType filterType = FilterType.LOWPASS;
+	double[] passbandEdgeFrequencies = new double[]{10.0};
+	double[] stopbandEdgeFrequencies = new double[]{20.0};
+	double passbandRipple = 3.0;
+	double stopbandAttenuation = 40.0;
+	double samplingFrequency = 256.0;
+
+	FilterCoefficients coefficients = IIRDesigner.designDigitalFilter(functionType, filterType,
+		passbandEdgeFrequencies, stopbandEdgeFrequencies, passbandRipple, stopbandAttenuation,
+		samplingFrequency);
+```
 
 The designDigitalFilter uses the following parameters:
 
