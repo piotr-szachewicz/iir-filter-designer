@@ -28,12 +28,10 @@ For example:
 
 The designDigitalFilter uses the following parameters:
 
-1.  ApproximationFunctionType approximationFunctionType - allowed types available in the ApproximationFunctionType enumerator (BUTTERWORTH, CHEBYSHEV1, CHEBYSHEV2, ELLIPTIC).
-2.  FilterType filterType - allowed values available in the FilterType enumerator (LOWPASS, HIGHPASS, BANDPASS, BANDSTOP).
-3.  double[] passbandEdgeFrequencies - contains an array of passband edge frequencies. In case of low-pass or high-pass filter the array should contain only one number, in case of band-pass or band-stop filters two numbers are required.
-4.  double[] stopbandEdgeFrequencies - contains an array of stopband edge frequencies.
-5.  double passbandRipple - describes what is the allowable ripple in the passband (in dB).
-6.  double stopbandAttenuation - describes how much attenuation is required in the stopband (dB).
-7.  double samplingFrequency - sampling frequency of the signal in Hz.
-
-
+1.  `ApproximationFunctionType approximationFunctionType` - allowed types available in the ApproximationFunctionType enumerator (`BUTTERWORTH`, `CHEBYSHEV1`, `CHEBYSHEV2`, `ELLIPTIC`).
+2.  `FilterType filterType` - allowed values available in the FilterType enumerator (`LOWPASS`, `HIGHPASS`, `BANDPASS`, `BANDSTOP`).
+3.  `double[] passbandEdgeFrequencies` - contains an array of passband edge frequencies. In case of low-pass or high-pass filter the array should contain only one number, in case of band-pass or band-stop filters two numbers are required.
+4.  `double[] stopbandEdgeFrequencies` - contains an array of stopband edge frequencies.
+5.  `double passbandRipple` - describes what is the allowable ripple in the passband (in dB).
+6.  `double stopbandAttenuation` - describes how much attenuation is required in the stopband (dB).
+7.  `double samplingFrequency` - sampling frequency of the signal in Hz.
