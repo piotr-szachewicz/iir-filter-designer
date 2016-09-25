@@ -1,7 +1,3 @@
-/* Chebyshev1IIRDesigner.java created 2010-09-12
- *
- */
-
 package org.jdsp.iirfilterdesigner.designers;
 
 import org.apache.commons.math.complex.Complex;

@@ -1,7 +1,3 @@
-/* InitialStateCalculatorTest.java created 2011-03-01
- *
- */
-
 package org.jdsp.iirfilterdesigner.utils;
 
 import static org.jdsp.iirfilterdesigner.SignalMLAssert.assertArrayEquals;

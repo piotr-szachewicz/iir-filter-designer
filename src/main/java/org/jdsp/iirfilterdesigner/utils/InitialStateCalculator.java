@@ -1,7 +1,3 @@
-/* InitialStateCalculator.java created 2010-03-01
- *
- */
-
 package org.jdsp.iirfilterdesigner.utils;
 
 import org.apache.commons.math.linear.Array2DRowRealMatrix;

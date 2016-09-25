@@ -1,7 +1,3 @@
-/* FilterOrderTooBigException.java created 2010-09-28
- *
- */
-
 package org.jdsp.iirfilterdesigner.exceptions;
 
 

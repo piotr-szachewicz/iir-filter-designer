@@ -1,7 +1,3 @@
-/* EllipticIIRDesigner.java created 2010-09-16
- *
- */
-
 package org.jdsp.iirfilterdesigner.designers;
 
 import java.util.ArrayList;

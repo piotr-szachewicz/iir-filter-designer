@@ -1,7 +1,3 @@
-/* ChebyshevIIRDesigner.java created 2010-09-14
- *
- */
-
 package org.jdsp.iirfilterdesigner.designers;
 
 import org.jdsp.iirfilterdesigner.exceptions.BadFilterParametersException;

@@ -1,7 +1,3 @@
-/* ButterworthIIRDesignerTest.java created 2010-09-12
- *
- */
-
 package org.jdsp.iirfilterdesigner.designers;
 
 import static org.jdsp.iirfilterdesigner.IIRDesignerAssert.assertEquals;

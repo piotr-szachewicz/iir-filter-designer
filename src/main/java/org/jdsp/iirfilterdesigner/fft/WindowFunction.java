@@ -1,6 +1,5 @@
 package org.jdsp.iirfilterdesigner.fft;
 
-
 /**
  * This class is capable of applying window functions ({@link WindowType})
  * to the given signal.

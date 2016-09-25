@@ -1,7 +1,3 @@
-/* TransferFunctionTest.java created 2011-02-19
- *
- */
-
 package org.jdsp.iirfilterdesigner.model;
 
 import static org.jdsp.iirfilterdesigner.IIRDesignerAssert.assertEquals;

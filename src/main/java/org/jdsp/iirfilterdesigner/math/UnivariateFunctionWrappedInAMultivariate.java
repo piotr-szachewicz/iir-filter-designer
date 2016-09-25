@@ -1,7 +1,3 @@
-/* UnivariateFunctionWrappedInAMultivariate.java created 2011-02-20
- *
- */
-
 package org.jdsp.iirfilterdesigner.math;
 
 import org.apache.commons.math.FunctionEvaluationException;

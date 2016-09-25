@@ -1,9 +1,4 @@
-/* ApproximationFunctionType.java created 2010-09-12
- *
- */
-
 package org.jdsp.iirfilterdesigner.model;
-
 
 /**
  * This enumeration type represents the type of the approximation function which

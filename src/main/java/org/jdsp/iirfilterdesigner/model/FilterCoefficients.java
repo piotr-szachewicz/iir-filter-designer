@@ -1,6 +1,3 @@
-/* FilterCoefficients.java created 2010-09-12
- *
- */
 package org.jdsp.iirfilterdesigner.model;
 
 import java.util.Arrays;

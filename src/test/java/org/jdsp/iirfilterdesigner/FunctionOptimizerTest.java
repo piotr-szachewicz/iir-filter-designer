@@ -1,7 +1,3 @@
-/* OptimizerTest.java created 2011-02-21
- *
- */
-
 package org.jdsp.iirfilterdesigner;
 
 import static org.junit.Assert.assertEquals;

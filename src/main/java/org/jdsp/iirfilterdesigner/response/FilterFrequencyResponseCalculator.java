@@ -1,6 +1,3 @@
-/* FilterResponseCalculator.java created 2010-11-30
- *
- */
 package org.jdsp.iirfilterdesigner.response;
 
 import org.apache.commons.math.complex.Complex;

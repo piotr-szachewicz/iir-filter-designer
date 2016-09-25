@@ -1,7 +1,3 @@
-/* TransferFunction.java created 2010-11-30
- *
- */
-
 package org.jdsp.iirfilterdesigner.model;
 
 import org.apache.commons.math.complex.Complex;

@@ -1,7 +1,3 @@
-/* Chebyshev2IIRDesigner.java created 2010-09-12
- *
- */
-
 package org.jdsp.iirfilterdesigner.designers;
 
 import java.util.ArrayList;

@@ -1,7 +1,3 @@
-/* Optimizer.java created 2011-02-21
- *
- */
-
 package org.jdsp.iirfilterdesigner.math;
 import java.util.logging.Level;
 import org.apache.commons.math.FunctionEvaluationException;

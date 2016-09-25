@@ -1,7 +1,3 @@
-/* SpecialMath.java created 2010-09-12
- *
- */
-
 package org.jdsp.iirfilterdesigner.math;
 
 import org.apache.log4j.Logger;

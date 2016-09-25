@@ -1,6 +1,5 @@
 package org.jdsp.iirfilterdesigner.fft;
 
-
 /** WindowType
  *
  *

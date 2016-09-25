@@ -1,7 +1,3 @@
-/* IIRDesigner.java created 2010-09-16
- *
- */
-
 package org.jdsp.iirfilterdesigner;
 
 import org.jdsp.iirfilterdesigner.designers.ButterworthIIRDesigner;

@@ -1,7 +1,3 @@
-/* BadFilterParametersException.java created 2010-09-19
- *
- */
-
 package org.jdsp.iirfilterdesigner.exceptions;
 
 /**

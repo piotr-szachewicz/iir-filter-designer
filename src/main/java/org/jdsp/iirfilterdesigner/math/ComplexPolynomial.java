@@ -1,7 +1,3 @@
-/* ComplexPolynomial.java created 2011-02-19
- *
- */
-
 package org.jdsp.iirfilterdesigner.math;
 
 import org.apache.commons.math.complex.Complex;

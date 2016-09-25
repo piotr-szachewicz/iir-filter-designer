@@ -1,7 +1,3 @@
-/* ChebyshevIIRDesignerTest.java created 2010-09-14
- *
- */
-
 package org.jdsp.iirfilterdesigner.designers;
 
 import static org.junit.Assert.assertEquals;

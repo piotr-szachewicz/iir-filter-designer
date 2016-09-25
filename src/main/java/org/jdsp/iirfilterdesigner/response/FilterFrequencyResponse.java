@@ -1,7 +1,3 @@
-/* FilterFrequencyResponse.java created 2010-09-27
- *
- */
-
 package org.jdsp.iirfilterdesigner.response;
 
 /**

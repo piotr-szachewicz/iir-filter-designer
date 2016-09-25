@@ -1,7 +1,3 @@
-/* FilterTimeResponse.java created 2011-02-05
- *
- */
-
 package org.jdsp.iirfilterdesigner.response;
 
 /**
