@@ -8,26 +8,22 @@ package org.jdsp.iirfilterdesigner.model;
  */
 public enum FilterType {
 
-	LOWPASS,
-	HIGHPASS,
-	BANDPASS,
-	BANDSTOP
-	;
+    LOWPASS, HIGHPASS, BANDPASS, BANDSTOP;
 
-	public boolean isLowpass() {
-		return (this == LOWPASS);
-	}
+    public boolean isLowpass() {
+	return (this == LOWPASS);
+    }
 
-	public boolean isHighpass() {
-		return (this == HIGHPASS);
-	}
+    public boolean isHighpass() {
+	return (this == HIGHPASS);
+    }
 
-	public boolean isBandpass() {
-		return (this == BANDPASS);
-	}
+    public boolean isBandpass() {
+	return (this == BANDPASS);
+    }
 
-	public boolean isBandstop() {
-		return (this == BANDSTOP);
-	}
+    public boolean isBandstop() {
+	return (this == BANDSTOP);
+    }
 
 }
