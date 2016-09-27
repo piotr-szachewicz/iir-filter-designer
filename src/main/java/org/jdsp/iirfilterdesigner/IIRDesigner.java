@@ -1,5 +1,6 @@
 package org.jdsp.iirfilterdesigner;
 
+import org.jdsp.iirfilterdesigner.designers.AbstractIIRDesigner;
 import org.jdsp.iirfilterdesigner.designers.ButterworthIIRDesigner;
 import org.jdsp.iirfilterdesigner.designers.Chebyshev1IIRDesigner;
 import org.jdsp.iirfilterdesigner.designers.Chebyshev2IIRDesigner;
@@ -48,63 +49,23 @@ public class IIRDesigner {
 	    FilterType type, double[] passbandEdgeFrequencies, double[] stopbandEdgeFrequencies, double passbandRipple,
 	    double stopbandAttenuation, double samplingFrequency) throws BadFilterParametersException {
 
-	if (approximationFunctionType.isButterworth()) {
+	AbstractIIRDesigner iirdesigner;
 
-	    ButterworthIIRDesigner iirdesigner = new ButterworthIIRDesigner();
-	    iirdesigner.enableDebugger(enableLogger);
-	    return iirdesigner.designDigitalFilter(samplingFrequency, type, passbandEdgeFrequencies,
-		    stopbandEdgeFrequencies, passbandRipple, stopbandAttenuation);
-
-	} else if (approximationFunctionType.isChebyshev1()) {
-
-	    Chebyshev1IIRDesigner iirdesigner = new Chebyshev1IIRDesigner();
-	    iirdesigner.enableDebugger(enableLogger);
-	    return iirdesigner.designDigitalFilter(samplingFrequency, type, passbandEdgeFrequencies,
-		    stopbandEdgeFrequencies, passbandRipple, stopbandAttenuation);
-
-	} else if (approximationFunctionType.isChebyshev2()) {
-
-	    Chebyshev2IIRDesigner iirdesigner = new Chebyshev2IIRDesigner();
-	    iirdesigner.enableDebugger(enableLogger);
-	    return iirdesigner.designDigitalFilter(samplingFrequency, type, passbandEdgeFrequencies,
-		    stopbandEdgeFrequencies, passbandRipple, stopbandAttenuation);
-
-	} else if (approximationFunctionType.isElliptic()) {
-
-	    EllipticIIRDesigner iirdesigner = new EllipticIIRDesigner();
-	    iirdesigner.enableDebugger(enableLogger);
-	    return iirdesigner.designDigitalFilter(samplingFrequency, type, passbandEdgeFrequencies,
-		    stopbandEdgeFrequencies, passbandRipple, stopbandAttenuation);
-
-	} else
+	if (approximationFunctionType.isButterworth())
+	    iirdesigner = new ButterworthIIRDesigner();
+	else if (approximationFunctionType.isChebyshev1())
+	    iirdesigner = new Chebyshev1IIRDesigner();
+	else if (approximationFunctionType.isChebyshev2())
+	    iirdesigner = new Chebyshev2IIRDesigner();
+	else if (approximationFunctionType.isElliptic())
+	    iirdesigner = new EllipticIIRDesigner();
+	else
 	    throw new BadFilterParametersException(
 		    "This approximation function type is not supported by the IIRFilterDesigner.");
 
+	iirdesigner.enableDebugger(enableLogger);
+	return iirdesigner.designDigitalFilter(samplingFrequency, type, passbandEdgeFrequencies,
+		stopbandEdgeFrequencies, passbandRipple, stopbandAttenuation);
+
     }
-
-    /**
-     * Designs a digital filter according to the given
-     * {@link TimeDomainSampleFilter filter definition}.
-     * 
-     * @param filterDefinition the definition containing parameters for which
-     *        the filter should be designed.
-     * @return coefficients of the designed filter.
-     * @throws BadFilterParametersException thrown when the filter cannot design
-     *         a filter for the given parameters.
-     */
-    // public static FilterCoefficients
-    // designDigitalFilter(TimeDomainSampleFilter filterDefinition) throws
-    // BadFilterParametersException {
-    //
-    // return
-    // IIRDesigner.designDigitalFilter(filterDefinition.getApproximationFunctionType(),
-    // filterDefinition.getFilterType(),
-    // filterDefinition.getPassbandEdgeFrequencies(),
-    // filterDefinition.getStopbandEdgeFrequencies(),
-    // filterDefinition.getPassbandRipple(),
-    // filterDefinition.getStopbandAttenuation(),
-    // filterDefinition.getSamplingFrequency());
-    //
-    // }
-
 }
