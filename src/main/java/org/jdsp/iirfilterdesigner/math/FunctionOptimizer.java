@@ -13,8 +13,6 @@ import org.apache.commons.math.optimization.univariate.BrentOptimizer;
 /**
  * This class represents an optimizer capable of finding minimum values in
  * univariate real functions.
- *
- * @author Piotr Szachewicz
  */
 public class FunctionOptimizer {
 

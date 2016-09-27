@@ -5,8 +5,6 @@ package org.jdsp.iirfilterdesigner.response;
  * (like frequency response, phase shift, group delay). It contains two arrays -
  * one holding frequencies at which the response was calculated, the other holds
  * the response (gain or phase response).
- *
- * @author Piotr Szachewicz
  */
 public class FilterFrequencyResponse {
 

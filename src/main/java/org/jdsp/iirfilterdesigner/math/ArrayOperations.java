@@ -5,8 +5,6 @@ import org.apache.commons.math.complex.Complex;
 /**
  * This class contains various methods operating on arrays for convolution,
  * reversing the order of elements in array etc.
- *
- * @author Piotr Szachewicz
  */
 public class ArrayOperations {
 

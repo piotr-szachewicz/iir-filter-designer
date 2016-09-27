@@ -3,8 +3,6 @@ package org.jdsp.iirfilterdesigner.model;
 /**
  * This enumeration type represents whether the filter is lowpass, highpass,
  * bandpass or bandstop.
- *
- * @author Piotr Szachewicz
  */
 public enum FilterType {
 

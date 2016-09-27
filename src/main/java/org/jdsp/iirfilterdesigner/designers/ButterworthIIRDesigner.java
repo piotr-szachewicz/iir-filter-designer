@@ -8,8 +8,6 @@ import org.jdsp.iirfilterdesigner.model.FilterZerosPolesGain;
 /**
  * This class represents a designer which is capable of designing a Butterworth
  * filter.
- *
- * @author Piotr Szachewicz
  */
 public class ButterworthIIRDesigner extends AbstractIIRDesigner {
 

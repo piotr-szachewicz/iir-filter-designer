@@ -14,8 +14,6 @@ import org.jdsp.iirfilterdesigner.model.FilterType;
  * This class represents a designer capable of designing digital filters, i.e.
  * calculating the {@link FilterCoefficients} according to the given
  * {@link TimeDomainSampleFilter specification}.
- *
- * @author Piotr Szachewicz
  */
 public class IIRDesigner {
 

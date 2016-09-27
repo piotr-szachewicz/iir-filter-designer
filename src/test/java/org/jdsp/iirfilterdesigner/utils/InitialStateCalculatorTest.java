@@ -14,8 +14,6 @@ import org.junit.Test;
 
 /**
  * This class performs unit tests on {@link InitialStateCalculator}.
- *
- * @author Piotr Szachewicz
  */
 public class InitialStateCalculatorTest {
 

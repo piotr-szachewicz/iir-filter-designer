@@ -5,8 +5,6 @@ import org.jdsp.iirfilterdesigner.model.FilterCoefficients;
 /**
  * This class represents a calculator capable of calculating time domain
  * responses of a given filter (step response or impulse response).
- *
- * @author Piotr Szachewicz
  */
 public class FilterTimeDomainResponseCalculator extends FilterResponseCalculator {
 

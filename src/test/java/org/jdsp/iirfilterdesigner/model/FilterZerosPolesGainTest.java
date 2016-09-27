@@ -7,8 +7,6 @@ import org.junit.Test;
 
 /**
  * This class performs unit tests on {@link FilterZerosPolesGain} class.
- *
- * @author Piotr Szachewicz
  */
 public class FilterZerosPolesGainTest {
 

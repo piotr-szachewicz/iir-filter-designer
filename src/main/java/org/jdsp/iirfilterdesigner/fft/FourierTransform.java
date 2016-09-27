@@ -6,8 +6,6 @@ import org.jdsp.iirfilterdesigner.math.ArrayOperations;
 
 /**
  * This class can be used to calculate FFT of a signal.
- *
- * @author Piotr Szachewicz
  */
 public class FourierTransform {
 

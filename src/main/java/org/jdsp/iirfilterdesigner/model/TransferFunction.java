@@ -9,8 +9,6 @@ import org.jdsp.iirfilterdesigner.math.ComplexPolynomial;
  * arrays - one of them holds the frequencies at which the frequency response
  * was computed (from 0 to PI), the other one holds the frequency response for
  * those frequencies (each number is a complex number).
- * 
- * @author Piotr Szachewicz
  */
 public class TransferFunction {
 

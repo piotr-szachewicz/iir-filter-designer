@@ -9,8 +9,6 @@ import org.junit.Test;
 
 /**
  * This class performs unit tests on {@link ChebyshevIIRDesigner} class.
- *
- * @author Piotr Szachewicz
  */
 public class ChebyshevIIRDesignerTest {
 

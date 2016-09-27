@@ -4,8 +4,6 @@ package org.jdsp.iirfilterdesigner.model;
  * This enumeration type represents the type of the approximation function which
  * is used to design (i. e. calculate the coefficients for) a
  * {@link TimeDomainSampleFilter}.
- *
- * @author Piotr Szachewicz
  */
 public enum ApproximationFunctionType {
 

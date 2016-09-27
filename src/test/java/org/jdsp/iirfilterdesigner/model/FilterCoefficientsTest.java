@@ -7,8 +7,6 @@ import org.junit.Test;
 
 /**
  * This method performs unit tests on {@link FilterCoefficients}
- *
- * @author Piotr Szachewicz
  */
 public class FilterCoefficientsTest {
 

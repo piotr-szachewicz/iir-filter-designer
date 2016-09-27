@@ -15,8 +15,6 @@ import org.junit.Test;
 
 /**
  * This class performs unit tests on {@link EllipticIIRDesigner} class.
- * 
- * @author Piotr Szachewicz
  */
 public class EllipticIIRDesignerTest {
 

@@ -10,8 +10,6 @@ import org.junit.Test;
 
 /**
  * This class performes unit tests on {@link FunctionOptimizer}
- *
- * @author Piotr Szachewicz
  */
 public class FunctionOptimizerTest {
 

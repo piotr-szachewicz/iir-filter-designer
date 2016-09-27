@@ -7,8 +7,6 @@ import org.jdsp.iirfilterdesigner.model.FilterZerosPolesGain;
 /**
  * This class is an extension of a SignalMLAssert class and is able to perform
  * some additional assertions needed for testing filters.
- *
- * @author Piotr Szachewicz
  */
 public class IIRDesignerAssert extends SignalMLAssert {
 

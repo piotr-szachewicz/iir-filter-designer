@@ -5,8 +5,6 @@ import org.apache.log4j.Logger;
 /**
  * This class contains methods for performing specialistic mathematical
  * operations needed for the {@link IIRDesigner filter designers}.
- *
- * @author Piotr Szachewicz
  */
 public class SpecialMath {
 

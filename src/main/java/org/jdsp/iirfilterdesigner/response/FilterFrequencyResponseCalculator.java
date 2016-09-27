@@ -13,8 +13,6 @@ import org.jdsp.iirfilterdesigner.model.TransferFunction;
  * frequency response for filter coefficients given in the constructor. The
  * available filter responses include: magnitude frequency response, phase shift
  * frequency response and group delay.
- *
- * @author Piotr Szachewicz
  */
 public class FilterFrequencyResponseCalculator extends FilterResponseCalculator {
 

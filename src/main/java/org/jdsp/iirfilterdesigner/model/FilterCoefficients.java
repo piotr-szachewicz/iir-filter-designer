@@ -8,8 +8,6 @@ import org.jdsp.iirfilterdesigner.math.SpecialMath;
 /**
  * This class contains the values of the feedback and feedforward coefficients
  * (B & A coefficients) of a particular filter.
- *
- * @author Piotr Szachewicz
  */
 public class FilterCoefficients {
 

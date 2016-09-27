@@ -6,8 +6,6 @@ import org.jdsp.iirfilterdesigner.model.FilterCoefficients;
  * An abstract class for creating concrete calculators:
  * {@link FilterFrequencyResponseCalculator} or
  * {@link FilterTimeDomainResponseCalculator}.
- *
- * @author Piotr Szachewicz
  */
 public abstract class FilterResponseCalculator {
 

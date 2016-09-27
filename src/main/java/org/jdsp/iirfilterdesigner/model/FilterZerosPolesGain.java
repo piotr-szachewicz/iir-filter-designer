@@ -8,8 +8,6 @@ import org.jdsp.iirfilterdesigner.math.ComplexPolynomial;
 /**
  * This class contains the values the ZPK (zeros, poles and gain) representation
  * of a filter.
- *
- * @author Piotr Szachewicz
  */
 public class FilterZerosPolesGain {
 

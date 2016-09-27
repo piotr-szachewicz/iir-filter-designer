@@ -13,8 +13,6 @@ import org.jdsp.iirfilterdesigner.model.FilterZerosPolesGain;
 /**
  * This class represents a designer which is capable of designing an Elliptic
  * filter.
- *
- * @author Piotr Szachewicz
  */
 public class EllipticIIRDesigner extends AbstractIIRDesigner {
 

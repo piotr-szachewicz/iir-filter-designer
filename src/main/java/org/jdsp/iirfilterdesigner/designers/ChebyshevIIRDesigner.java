@@ -7,8 +7,6 @@ import org.jdsp.iirfilterdesigner.model.FilterType;
 /**
  * This abstract class represents a designer which is capable of designing a
  * Chebyshev filter.
- *
- * @author Piotr Szachewicz
  */
 abstract class ChebyshevIIRDesigner extends AbstractIIRDesigner {
 

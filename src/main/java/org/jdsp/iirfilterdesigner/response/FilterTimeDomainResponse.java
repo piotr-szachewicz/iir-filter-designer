@@ -5,8 +5,6 @@ package org.jdsp.iirfilterdesigner.response;
  * like step response or impulse response. It contains two arrays - one holding
  * the time values for which the response was calculated, the other holds the
  * signal values of the the response.
- *
- * @author Piotr Szachewicz
  */
 public class FilterTimeDomainResponse {
 

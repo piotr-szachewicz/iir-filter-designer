@@ -3,8 +3,6 @@ package org.jdsp.iirfilterdesigner.exceptions;
 /**
  * This exception class indicates that the order of the filter designed for the
  * given parameters is too big - the filter may not work as intended.
- *
- * @author Piotr Szachewicz
  */
 public class FilterOrderTooBigException extends BadFilterParametersException {
 

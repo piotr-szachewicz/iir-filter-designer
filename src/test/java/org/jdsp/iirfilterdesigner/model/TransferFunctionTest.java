@@ -12,8 +12,6 @@ import org.junit.Test;
 
 /**
  * This class performs unit tests on {@link TransferFunction}.
- *
- * @author Piotr Szachewicz
  */
 public class TransferFunctionTest {
 

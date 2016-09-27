@@ -12,8 +12,6 @@ import org.junit.Test;
 
 /**
  * This class performs unit tests on the {@link ButterworthIIRDesigner} class.
- *
- * @author Piotr Szachewicz
  */
 public class ButterworthIIRDesignerTest {
 

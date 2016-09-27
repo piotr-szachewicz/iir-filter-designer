@@ -12,8 +12,6 @@ import org.junit.Test;
 
 /**
  * This class perfoms unit test on {@link Chebyshev1IIRDesigner} class.
- * 
- * @author Piotr Szachewicz
  */
 public class Chebyshev1IIRDesignerTest {
 

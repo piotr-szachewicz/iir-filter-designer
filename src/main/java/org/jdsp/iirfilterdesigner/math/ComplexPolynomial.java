@@ -4,8 +4,6 @@ import org.apache.commons.math.complex.Complex;
 
 /**
  * This class represents a polynomial with complex coefficients.
- *
- * @author Piotr Szachewicz
  */
 public class ComplexPolynomial {
 

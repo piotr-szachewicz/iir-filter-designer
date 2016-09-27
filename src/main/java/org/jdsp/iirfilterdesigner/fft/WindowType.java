@@ -2,10 +2,6 @@ package org.jdsp.iirfilterdesigner.fft;
 
 /**
  * WindowType
- *
- *
- * @author Michal Dobaczewski &copy; 2007-2008 CC Otwarte Systemy Komputerowe
- *         Sp. z o.o.
  */
 public enum WindowType {
 

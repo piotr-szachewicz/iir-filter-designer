@@ -10,8 +10,6 @@ import org.jdsp.iirfilterdesigner.model.FilterZerosPolesGain;
 /**
  * This class represents a designer which is capable of designing a Chebyshev
  * II.
- *
- * @author Piotr Szachewicz
  */
 public class Chebyshev2IIRDesigner extends ChebyshevIIRDesigner {
 

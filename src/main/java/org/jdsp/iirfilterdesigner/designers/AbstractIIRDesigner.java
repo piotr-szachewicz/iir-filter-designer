@@ -14,8 +14,6 @@ import org.jdsp.iirfilterdesigner.model.FilterZerosPolesGain;
 /**
  * This is an abstract class representing a Designer capable of designing an IIR
  * Filter.
- *
- * @author Piotr Szachewicz
  */
 public abstract class AbstractIIRDesigner {
 

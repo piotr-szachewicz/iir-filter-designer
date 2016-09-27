@@ -8,8 +8,6 @@ import org.junit.Assert;
 /**
  * This class is an extension of a JUnit class and is able to perform some
  * additional assertions needed in Svarog test.
- *
- * @author Piotr Szachewicz
  */
 public class SignalMLAssert extends Assert {
 

@@ -9,8 +9,6 @@ import org.apache.commons.math.analysis.UnivariateRealFunction;
  * multivariate function interface to use it with Nelder-Mead optimization
  * algorithm which is for multivariate functions only in the apache.commons.math
  * library.
- *
- * @author Piotr Szachewicz
  */
 class UnivariateFunctionWrappedInAMultivariate implements MultivariateRealFunction {
 

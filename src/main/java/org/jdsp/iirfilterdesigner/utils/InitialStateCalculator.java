@@ -13,8 +13,6 @@ import org.jdsp.iirfilterdesigner.model.FilterCoefficients;
  * This class calculates the initial state parameters for a filter. These
  * initial state can be used to perform filtfilt with minimal distortion at the
  * boundaries of the signal.
- *
- * @author Piotr Szachewicz
  */
 public class InitialStateCalculator {
     /**
