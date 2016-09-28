@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/piotr-szachewicz/iir-filter-designer.svg?branch=master)](https://travis-ci.org/piotr-szachewicz/iir-filter-designer)
+
 Java IIR Filter Designer
 ========================
 
