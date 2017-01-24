@@ -6,8 +6,6 @@ Java IIR Filter Designer
 Java IIR Filter Designer is a Java library for designing Infinite
 Impulse Response (IIR) filters.
 
-The implementation of this library is based on Scipy signal package.
-
 How to use it:
 --------------
 
